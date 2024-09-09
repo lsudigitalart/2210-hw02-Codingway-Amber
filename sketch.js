@@ -1,19 +1,39 @@
 function setup() {
     createCanvas(400,269);
-    background(0);
-    noStroke();
-    fill(255, 0, 0,);
-    rect(0, 0, width, 100);
-    fill(255, 0, 0, 125);
-    ellipse(100, 100, 100);
+    // angleMode(DEGREES);
 
-    fill(221, 176, 26)
-    quad(0, 65, width, 65, width, height, 0, height);
-
-    strokeWeight(5);
-    stroke(0);
 }
 
 function draw() {
+    background(100);
+    fill(255, 0, 0); 
+   
+    // mouse position
+    text(mouseX, 0, 100); 
+    text(mouseY, 0, 120); 
+
+    noStroke();
+    // rotate(40);
+    fill(221, 176, 26);
+    ellipse (12, 20, 50, 100);
+    // quad(0, 65, 12, 65, width, height, 0, height);
+
+    // line 1
+    strokeWeight(15);
+    stroke(0);
+    noFill();
+    curve(mouseX, mouseY, 8, 0, 0, 15, mouseX, mouseY)
     
+    // line 2
+    // strokeWeight(15);
+    // stroke(0);
+    // noFill();
+    // curve(100, 10, 6, 0, 0, 100, 92, 71)
+
+    // line
+    strokeWeight(5);
+    stroke(0);
+    noFill();
+    curve(193, 134, 105, 0, 43, 182, 92, 71)
+
 }
