@@ -22,7 +22,7 @@ function draw() {
     strokeWeight(15);
     stroke(0);
     noFill();
-    curve(mouseX, mouseY, 8, 0, 0, 15, mouseX, mouseY)
+    curve(0, 0, 8, 0, 0, 19, 10, 8)
     
     // line 2
     // strokeWeight(15);
