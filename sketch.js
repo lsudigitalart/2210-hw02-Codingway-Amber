@@ -1,6 +1,6 @@
 function setup() {
     createCanvas(400,269);
-    // angleMode(DEGREES);
+    angleMode(DEGREES);
 
 }
 
@@ -80,7 +80,7 @@ function draw() {
     noFill();
     curve(200, 0, 172, 185, 194, 281, 115, 150);
 
-    // line 6
+    // line 11
     strokeWeight(5);
     stroke(0);
     noFill();
@@ -88,7 +88,54 @@ function draw() {
 
     // skin
     noStroke();
-    // rotate(40);
     fill(246, 228, 216);
-    ellipse (397, 141, 150, 300);
+    ellipse (397, 141, 160, 320);
+
+    // line 12
+    strokeWeight(5);
+    stroke(0);
+    noFill();
+    curve(120, 268, 270, 0, 220, 130, 277, 800); 
+
+    // line 13
+    strokeWeight(5);
+    stroke(0);
+    noFill();
+    curve(321, 117, 270, 0, 240, 150, 321, 300); 
+
+    // line 14
+    strokeWeight(6);
+    stroke(0);
+    noFill();
+    curve(350, 117, 284, 0, 260, 170, 350, 300); 
+
+    // line 15
+    strokeWeight(15);
+    stroke(0);
+    noFill();
+    curve(477, 93, 352, 0, 322, 194, 477, 220); 
+
+    // line 16
+    strokeWeight(20);
+    stroke(0);
+    noFill();
+    curve(530, 0, 340, 0, 316, 180, 530, 302);
+
+    // line 17
+    strokeWeight(10);
+    stroke(0);
+    noFill();
+    curve(530, 0, 340, 0, 340, 223, 530, 302);
+
+    // line 18
+    strokeWeight(10);
+    stroke(0);
+    noFill();
+    curve(411, 31, 302, 142, 364, 277, 194, 200);
+
+    // // hair
+    // noStroke();
+    // rotate (364)
+    // fill(246, 200, 29);
+    // ellipse (344, 264, 100, 180);
 }
