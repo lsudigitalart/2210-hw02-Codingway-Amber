@@ -60,4 +60,24 @@ function draw() {
     noFill();
     curve(300, 134, 142, 0, 80, 268, 300, 300)
 
+    // line 8
+    strokeWeight(14);
+    stroke(0);
+    noFill();
+    curve(507, 17, 194, 0, 194, 268, 400, 300)
+
+    // line 9
+    strokeWeight(20);
+    stroke(0);
+    noFill();
+    curve(354, 0, 210, 0, 169, 182, 200, 400)
+
+    // line 10
+    strokeWeight(12); 
+    stroke(0); 
+    noFill();
+    curve(200, 0, 172, 185, 194, 281, 115, 150)
+
+    
+
 }
