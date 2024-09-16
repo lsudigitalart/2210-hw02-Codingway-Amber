@@ -1,6 +1,5 @@
 function setup() {
     createCanvas(400,269);
-    angleMode(DEGREES);
 
 }
 
@@ -12,8 +11,8 @@ function draw() {
     fill(255, 0, 0); 
     strokeWeight(5);
     stroke(0);
-    text(mouseX, 0, 200); 
-    text(mouseY, 0, 220); 
+    text(mouseX, 0, 180); 
+    text(mouseY, 0, 200); 
 
     // line 1
     strokeWeight(15);
@@ -90,25 +89,31 @@ function draw() {
     strokeWeight(5);
     stroke(0);
     noFill();
-    curve(120, 268, 275, 0, 220, 130, 277, 800); 
+    curve(120, 268, 275, 0, 225, 130, 297, 860); 
 
     // line 13
     strokeWeight(5);
     stroke(0);
     noFill();
-    curve(321, 117, 275, 0, 240, 150, 321, 300); 
+    curve(321, 117, 275, 0, 248, 150, 330, 390); 
 
     // line 14
     strokeWeight(6);
     stroke(0);
     noFill();
-    curve(454, 27, 300, 0, 260, 170, 350, 300); 
+    curve(454, 27, 300, 0, 270, 170, 350, 300); 
 
     // hair2
     noStroke();
     rotate
     fill(246, 200, 29);
-    ellipse (310, 290, 100, 180);
+    ellipse (310, 290, 100, 180); 
+
+    // hair3
+    noStroke();
+    rotate
+    fill(246, 200, 29);
+    ellipse (315, 290, 120, 100);
 
     // line 15
     strokeWeight(15);
@@ -134,10 +139,88 @@ function draw() {
     noFill();
     curve(411, 31, 302, 142, 364, 277, 194, 200); 
 
-    // line 18
+    // line 19
     strokeWeight(15);
     stroke(0);
     noFill();
     curve(600, 0, 332, 0, 316, 181, 530, 300); 
+
+    // line 20
+    strokeWeight(10);
+    stroke(0);
+    noFill();
+    curve(280, 240, 300, 200, 330, 270, 150, 50); 
+
+    // line 21
+    strokeWeight(10);
+    stroke(0);
+    noFill();
+    curve(240, 240, 300, 200, 323, 300, 150, 150); 
+
+    // line 22
+    strokeWeight(11);
+    stroke(0);
+    noFill();
+    curve(170, 206, 287, 170, 260, 280, 150, 150); 
+
+    // line 23
+    strokeWeight(5);
+    stroke(0);
+    noFill();
+    curve(190, 190, 270, 205, 231, 280, 150, 150); 
+
+    // line 24
+    strokeWeight(6);
+    stroke(0);
+    noFill();
+    curve(190, 190, 253, 211, 217, 273, 150, 150); 
+
+    // line 25
+    strokeWeight(6);
+    stroke(0);
+    noFill();
+    curve(190, 190, 253, 211, 209, 275, 150, 150); 
+
+    // line 26 lashes 1
+    strokeWeight(2);
+    stroke(0);
+    noFill();
+    curve(190, 190, 408, 120, 380, 135, 150, 150); 
+
+    // line 27 lashes 2
+    strokeWeight(3);
+    stroke(0);
+    noFill();
+    curve(190, 190, 408, 100, 380, 135, 150, 150); 
+
+    // line 28 horizontal
+    strokeWeight(7);
+    stroke(0);
+    noFill();
+    curve(225, 225, 0, 218, 237, 218, 225, 225); 
+
+    // line 29 horizontal
+    strokeWeight(4);
+    stroke(0);
+    noFill();
+    curve(235, 245, 0, 248, 212, 248, 245, 235); 
+
+    // line 30 horizontal
+    strokeWeight(4);
+    stroke(0);
+    noFill();
+    curve(255, 255, 0, 262, 210, 262, 255, 255); 
+
+    // line 31 horizontal
+    strokeWeight(7);
+    stroke(0);
+    noFill();
+    curve(50, 50, 0, 50, 400, 50, 50, 50); 
+
+    // line 32 horizontal
+    strokeWeight(8);
+    stroke(220);
+    noFill();
+    curve(10, 10, 0, 10, 400, 10, 10, 10); 
 
 }
