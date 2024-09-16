@@ -8,11 +8,11 @@ function draw() {
     background(246, 200, 29);
    
     // mouse position
-    fill(255, 0, 0); 
-    strokeWeight(5);
-    stroke(0);
-    text(mouseX, 0, 180); 
-    text(mouseY, 0, 200); 
+    // fill(255, 0, 0); 
+    // strokeWeight(5);
+    // stroke(0);
+    // text(mouseX, 0, 180); 
+    // text(mouseY, 0, 200); 
 
     // line 1
     strokeWeight(15);
