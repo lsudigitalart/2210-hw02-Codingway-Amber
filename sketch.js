@@ -5,6 +5,7 @@ function setup() {
 }
 
 function draw() {
+    // hair
     background(246, 200, 29);
    
     // mouse position
@@ -14,17 +15,11 @@ function draw() {
     text(mouseX, 0, 200); 
     text(mouseY, 0, 220); 
 
-    // circle
-    // noStroke();
-    // rotate(40);
-    // fill(221, 176, 26);
-    // ellipse (12, 20, 50, 100);
-
     // line 1
     strokeWeight(15);
     stroke(0);
     noFill();
-    curve(0, 0, 8, 0, 0, 19, 10, 8);
+    curve(0, 0, 10, 0, 0, 19, 10, 8);
     
     // line 2
     strokeWeight(15);
@@ -60,7 +55,7 @@ function draw() {
     strokeWeight(10);
     stroke(0);
     noFill();
-    curve(300, 134, 142, 0, 80, 268, 300, 300);
+    curve(424, 66, 150, 0, 80, 268, 300, 300);
 
     // line 8
     strokeWeight(14);
@@ -84,7 +79,7 @@ function draw() {
     strokeWeight(5);
     stroke(0);
     noFill();
-    curve(105, 134, 250, 0, 202, 100, 150, 700); 
+    curve(105, 134, 255, 0, 202, 100, 150, 700); 
 
     // skin
     noStroke();
@@ -95,19 +90,25 @@ function draw() {
     strokeWeight(5);
     stroke(0);
     noFill();
-    curve(120, 268, 270, 0, 220, 130, 277, 800); 
+    curve(120, 268, 275, 0, 220, 130, 277, 800); 
 
     // line 13
     strokeWeight(5);
     stroke(0);
     noFill();
-    curve(321, 117, 270, 0, 240, 150, 321, 300); 
+    curve(321, 117, 275, 0, 240, 150, 321, 300); 
 
     // line 14
     strokeWeight(6);
     stroke(0);
     noFill();
-    curve(350, 117, 284, 0, 260, 170, 350, 300); 
+    curve(454, 27, 300, 0, 260, 170, 350, 300); 
+
+    // hair2
+    noStroke();
+    rotate
+    fill(246, 200, 29);
+    ellipse (310, 290, 100, 180);
 
     // line 15
     strokeWeight(15);
@@ -131,11 +132,12 @@ function draw() {
     strokeWeight(10);
     stroke(0);
     noFill();
-    curve(411, 31, 302, 142, 364, 277, 194, 200);
+    curve(411, 31, 302, 142, 364, 277, 194, 200); 
 
-    // // hair
-    // noStroke();
-    // rotate (364)
-    // fill(246, 200, 29);
-    // ellipse (344, 264, 100, 180);
+    // line 18
+    strokeWeight(15);
+    stroke(0);
+    noFill();
+    curve(600, 0, 332, 0, 316, 181, 530, 300); 
+
 }
